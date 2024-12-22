@@ -17,9 +17,14 @@ style="transform: translate(60px,120px);
 }
 .photo {
 float: left;
-style:"margin-left: 29px";
+position: static;
+top: 0;
+left: 0;
+bottom: 0;
+style: margin-bottom: 1000px;
 
 }
 .s {
 font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+
 }
