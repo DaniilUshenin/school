@@ -1,6 +1,16 @@
-.menu{
+*{
+padding: 20px 20px 20px 0;
+background: #FAEBD7;
+}
+.header_logo {
+font-size:48px;
+font-weight: 400;
+}
+.url{
+background: url("https://wpcustom.ru/wp-content/uploads/wpcustom_264.jpg") ;
+font-size:32px;
+
+}
+.url , .header_logo {
 display: inline;
-height: 16px;
-margin: 8px;
-size: 16px;
- }
+}
