@@ -1,4 +1,6 @@
-.txt {
-color: blue;
-font-family: 'Helvetica Nue';
-}
+.menu{
+display: inline;
+height: 16px;
+margin: 8px;
+size: 16px;
+ }
