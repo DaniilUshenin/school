@@ -1,16 +1,25 @@
 *{
-padding: 20px 20px 20px 0;
+padding: 10px 10px 0;
 background: #FAEBD7;
 }
+.url , .header_logo {
+ display: inline;
+ font-family:Impact, fantasy;
+ }
 .header_logo {
 font-size:48px;
 font-weight: 400;
 }
 .url{
-background-image: url("https://wpcustom.ru/wp-content/uploads/wpcustom_264.jpg") ;
+background-image: url("") ;
 font-size:32px;
+style="transform: translate(60px,120px);
+}
+.photo {
+float: left;
+style:"margin-left: 29px";
 
 }
-.url , .header_logo {
-display: inline;
+.s {
+font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
