@@ -1,5 +1,4 @@
 body{
-padding: 0 0;
 background: #FAEBD7 url("https://en.idei.club/uploads/posts/2023-06/1687637623_en-idei-club-p-science-pattern-dizain-49.jpg") no-repeat;
 weight: 100vh;
 background-size: cover;
@@ -39,6 +38,7 @@ style: margin-bottom: 1000px;
 
 .s {
 font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+text-align: right;
 }
 
 .head {background:#1127f2;}
@@ -52,9 +52,19 @@ color:blue;
 }
 
 .menu{
-text-align: right;
+float: right;
 background: white;
-background-weight: 2em;
-font_size: 64px;
-font-weight: bold;
+font-size:76px;
+
+
+}
+
+.head {
+
+}
+
+* {
+margin:0;
+padding:0;
+font-family: serif;
 }
