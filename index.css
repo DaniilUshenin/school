@@ -10,7 +10,7 @@ cursor: pointer;
  display: inline;
  font-family:Impact, fantasy;
  color:black;
- background:#1127f2;
+
 font-weight: 400;
 
  }
@@ -36,6 +36,7 @@ top: 0;
 left: 0;
 bottom: 0;
 style: margin-bottom: 1000px;
+/* не работает */
 
 }
 
@@ -52,19 +53,27 @@ background:white;
 
 .url:hover{
 color:blue;
+background: gray;
 }
 
 .menu{
 float: right;
-background: white;
 font-size:76px;
+background: white;
+
+.menu:hover{
+background: gray;
+/* не работает */
+}
+
+#2 {width: 200px; height: 150px;
+/* не работает */
+
+}
 
 
 }
 
-.head {
-
-}
 
 * {
 margin:0;
