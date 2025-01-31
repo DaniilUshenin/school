@@ -19,10 +19,11 @@ font-size:48px;
 font-weight: 400;
 color: #F2C9C9;
 font-family: impact;
-
-
+}
+.header_logo:hover{
 
 }
+
 .url{
 text-decoration:none ;
 font-size:32px;
@@ -68,7 +69,7 @@ background: gray;
 
 #2 {width: 200px; height: 150px;
 /* не работает */
-
+float: left;
 }
 
 
@@ -84,5 +85,10 @@ font-family: serif;
 position:center;
 height: 270px;
 width:480px;
+/* не работает */
 
+}
+
+.block{
+display: inline;
 }
