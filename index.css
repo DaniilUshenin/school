@@ -6,13 +6,15 @@ background-attachment: fixed;
 cursor: pointer;
 font-family: Arial, sans-serif;
 line-height: 1.6;
+margin:0;
+padding:0;
 }
 
 .url , .header_logo , .menu {
  display: inline;
  font-family:Impact, fantasy;
  color:black;
- padding: 10px 0;
+ padding: 0;
  text-align: center;
 
 font-weight: 400;
@@ -45,7 +47,6 @@ style: margin-bottom: 1000px;
 
 }
 
-#1{    }
 
 .s {
 font-family: New Century Schoolbook, TeX Gyre Schola, serif;
@@ -53,15 +54,18 @@ text-align: right;
 }
 
 .head {background:#1127f2;
-
+width: 100%
 }
+
+h2  {font-size:48px;}
+h3{font-size:36px;}
 
 p {
 color:black;
-
+font-size: 32px;
 }
 #s {background:white;
-font-size: 32px;
+
 }
 
 
@@ -80,9 +84,9 @@ background: gray;
 /* не работает */
 }
 
-#2 {width: 200px; height: 150px;
+#2 {
 /* не работает */
-float: left;
+
 }
 
 
@@ -98,7 +102,7 @@ font-family: serif;
 position:center;
 height: 270px;
 width:480px;
-/* не работает */
+/* уладален */
 
 }
 
@@ -127,7 +131,11 @@ section {
 }
 
 section h2 {
-    color: #4CAF50;
+    color: white;
+}
+
+#252{
+color: #4CAF50;
 }
 
 .teacher-list {
@@ -147,4 +155,19 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+
 }
+
+.text {
+background: #7037D2;
+font-size:48px;
+text-position: center;
+width: 100%;
+
+}
+
+#info{
+width:256px;
+height:256px;
+}
+
