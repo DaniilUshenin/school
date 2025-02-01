@@ -42,8 +42,8 @@ position: static;
 top: 0;
 left: 0;
 bottom: 0;
-style: margin-bottom: 1000px;
-/* не работает */
+
+
 
 }
 
@@ -102,7 +102,7 @@ font-family: serif;
 position:center;
 height: 270px;
 width:480px;
-/* уладален */
+/* удален */
 
 }
 
