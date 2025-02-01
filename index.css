@@ -4,12 +4,18 @@ weight: 100vh;
 background-size: cover;
 background-attachment: fixed;
 cursor: pointer;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin:0;
+padding:0;
 }
 
 .url , .header_logo , .menu {
  display: inline;
  font-family:Impact, fantasy;
  color:black;
+ padding: 0;
+ text-align: center;
 
 font-weight: 400;
 
@@ -21,7 +27,7 @@ color: #F2C9C9;
 font-family: impact;
 }
 .header_logo:hover{
-
+/*анимация*/
 }
 
 .url{
@@ -41,16 +47,27 @@ style: margin-bottom: 1000px;
 
 }
 
+
 .s {
 font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 text-align: right;
 }
 
-.head {background:#1127f2;}
-p {font-size: 32px;
-color:black;
-background:white;
+.head {background:#1127f2;
+width: 100%
 }
+
+h2  {font-size:48px;}
+h3{font-size:36px;}
+
+p {
+color:black;
+font-size: 32px;
+}
+#s {background:white;
+
+}
+
 
 .url:hover{
 color:blue;
@@ -67,9 +84,9 @@ background: gray;
 /* не работает */
 }
 
-#2 {width: 200px; height: 150px;
+#2 {
 /* не работает */
-float: left;
+
 }
 
 
@@ -85,10 +102,72 @@ font-family: serif;
 position:center;
 height: 270px;
 width:480px;
-/* не работает */
+/* уладален */
 
 }
 
 .block{
-display: inline;
+
 }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    color: white;
+}
+
+#252{
+color: #4CAF50;
+}
+
+.teacher-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.teacher {
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.text {
+background: #7037D2;
+font-size:48px;
+text-position: center;
+width: 100%;
+
+}
+
+#info{
+width:256px;
+height:256px;
+}
+
