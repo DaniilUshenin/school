@@ -171,3 +171,8 @@ width:256px;
 height:256px;
 }
 
+.inline {
+display:inline;
+display: flex;
+
+}
